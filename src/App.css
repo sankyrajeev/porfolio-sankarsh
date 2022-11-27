@@ -8,6 +8,7 @@
 body{
   background-image: url('./pages/images/home-background.jpeg');
   background-size: cover;
+  max-width: 100%;
 }
 .home-background{
   text-align: center;
@@ -80,4 +81,19 @@ body{
   100% {
     transform: translate(0,0);
   }
+}
+.fa-brands{
+  color: white;
+}
+
+.fa-brands:hover{
+  color: Dodgerblue;
+  font-size: xx-large;
+  
+}
+
+
+.footer .navbar-nav{
+margin-left: 45%;
+
 }

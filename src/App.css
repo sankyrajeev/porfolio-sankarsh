@@ -3,12 +3,15 @@
   padding: 0;
   margin: 0;
   
+  
 }
 
 body{
   background-image: url('./pages/images/home-background.jpeg');
   background-size: cover;
-  max-width: 100%;
+  background-repeat: no-repeat;
+  
+  height: 100%;
 }
 .home-background{
   text-align: center;
@@ -28,19 +31,34 @@ body{
   font-size: 10em;;
 }
 .about-container{
-  max-width: 50%;
+  max-width: 100%;
   color: white;
   padding: 0.7em;
   padding-top:4.5em;
 
 }
+.about-container{
+  display: flex;
 
+}
 .about-me{
   font-size: 1.2em;
- 
+  max-width: 50%;
   text-align: justify;
   font-weight: bold;
+  margin-top: 3em;
+  padding-left: 1em;
 }
+.myimage{
+  margin-left: 12em;
+  border: 5px solid #555
+}
+
+.card{
+  width: 28rem;
+}
+
+
 
 
 

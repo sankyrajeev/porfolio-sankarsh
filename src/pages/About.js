@@ -1,6 +1,8 @@
+import Myimage from './images/myImage.JPG'
+
 function About() {
     return (
-        <section class="about">
+        <section class="about flex-container">
             <h2 class="about-header">About Me.</h2>
             <div class="about-container">
                 <p class="about-me">
@@ -9,12 +11,13 @@ function About() {
                     I was able to join the UCLA Extension program which develop skills with various web technologies like HTML, CSS, JavaScript, REACT, Express, SQL etc. 
 
                 </p>
+                <div class="myimage" >
+                <img src={Myimage} alt="No image" style={{ width: '300px'}}/>
+            </div>
                 
             </div>
 
-            <div class="myimage">
-                <img src='../images/myImage.JPG' alt="No iimage"/>
-            </div>
+            
 
         </section>
     );

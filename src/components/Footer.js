@@ -10,7 +10,7 @@ function Footer() {
                                 <a className="nav-link active" href="https://github.com/sankyrajeev" target="_blank" ><i className="fa-brands fa-github fa-xl"></i></a>
                             </li>
                             <li className="nav-item me-2">
-                                <a className="nav-link active" href="#" target="_blank" ><i className="fa-brands fa-linkedin fa-xl"></i></a>
+                                <a className="nav-link active" href="www.linkedin.com/in/sankarsh-rajeev-5b4a5b10a" target="_blank" ><i className="fa-brands fa-linkedin fa-xl"></i></a>
                             </li>
                             
                             <li className="nav-item me-2">

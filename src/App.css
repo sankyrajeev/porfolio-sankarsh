@@ -1,87 +1,154 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  
-  
+
+
 }
+
 .nav-item {
-  font-family:"Inter";
+  font-family: "Inter";
 }
 
 .nav-item:hover {
-  font-family:"Inter";
-  
+  font-family: "Inter";
+
   text-decoration: underline;
   background-color: #555;
 }
-.navbar-brand{
+.card{
+  background: none;
+}
+.card-title{
+  color: white;
   font-family: "Inter";
-  
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.card-img-top {
+  width: 250px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
-body{
+.card-text{
+  color: white;
+  font-family: "Inter";
+}
+.project{
+  width:19rem;
+  height: 2em;
+}
+
+.navbar-brand {
+  font-family: "Inter";
+
+}
+.row{
+  padding-left: 15em;
+  padding-top: 6em;;
+}
+
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  flex-grow: 1;
+ }
+
+ .box{
+  max-height: 30rem;
+  height: 30rem;;
+ }
+
+body {
   background-image: url('./pages/images/background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  
+
   height: 100%;
 }
-.home-background{
+
+.home-background {
   text-align: center;
   padding-top: 15em;
   color: white;
   font-style: italic;
   /* background-image: url('./pages/images/home-background.jpeg');
   background-size: cover; */
-  
+
 }
-.nav-link a:hover{
+
+.nav-link a:hover {
   background-color: pink;
 }
-.about-header{
+
+.about-header  {
   color: white;
   text-align: center;
-  padding-top:0.1em;
-  font-size: 10em;;
+  padding-top: 0.1em;
+  font-size: 10em;
+  ;
 }
-.about-container{
+
+.portfolio{
+  color: white;
+  text-align: center;
+  font-size: 10em;
+  font-family: "Inter";
+}
+
+.about-container {
   max-width: 80%;
   color: white;
   padding: 0.7em;
-  padding-top:4.5em;
+  padding-top: 1em;
   margin-left: auto;
   margin-right: auto;
 
 }
-.about-container{
+
+.about-container {
   display: flex;
   border: 1px solid white;
 
 }
-.about-me{
+
+.about-me {
   font-size: 1.2em;
   max-width: 50%;
   text-align: justify;
   font-weight: bold;
   margin-top: 4em;
   padding-left: 5em;
-  font-family:"Inter";
-  
+  font-family: "Inter";
+
 }
 
 
-.myimage{
+.myimage {
   margin-left: 17em;
-  
+
   border: 5px solid #555
 }
 
 
-.card{
+.card {
   width: 28rem;
 }
 
+.contact{
+  color: white;
+  text-align: center;
+  font-size: 10em;
+  font-family: "Inter";
+}
+.form{
+  margin-left: 25em;
+  color: white;
+  font-family: "Inter";
+}
 
 
 
@@ -90,56 +157,62 @@ body{
 
 /* animation1 */
 
-.reveal-1{
+.reveal-1 {
   overflow: hidden;
   line-height: 1;
-  font-family:"Inter";
+  font-family: "Inter";
 }
-.reveal-1 span{
+
+.reveal-1 span {
   display: block;
   animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
 }
+
 /* animation2 */
-.reveal-2{
+.reveal-2 {
   overflow: hidden;
-  font-family:"Inter";
+  font-family: "Inter";
   line-height: 3;
 }
-.reveal-2 span{
+
+.reveal-2 span {
   display: block;
   animation: reveal 3s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
 }
 
-.reveal-3{
+.reveal-3 {
   overflow: hidden;
-  font-family:"Inter";
+  font-family: "Inter";
   line-height: 4;
 }
-.reveal-3 span{
+
+.reveal-3 span {
   display: block;
   animation: reveal 4.5s cubic-bezier(0.77, 0, 0.275, 1) 0.5s;
 }
 
 @keyframes reveal {
   0% {
-    transform: translate(0,100%);
+    transform: translate(0, 100%);
   }
+
   100% {
-    transform: translate(0,0);
+    transform: translate(0, 0);
   }
 }
-.fa-brands{
+
+.fa-brands {
   color: white;
 }
 
-.fa-brands:hover{
+.fa-brands:hover {
   color: Dodgerblue;
   font-size: xx-large;
-  
+
 }
 
 
-.footer .navbar-nav{
-margin-left: 45%;
+.footer .navbar-nav {
+  margin-left: 45%;
 
 }

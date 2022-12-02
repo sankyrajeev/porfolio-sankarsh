@@ -5,9 +5,23 @@
   
   
 }
+.nav-item {
+  font-family:"Inter";
+}
+
+.nav-item:hover {
+  font-family:"Inter";
+  
+  text-decoration: underline;
+  background-color: #555;
+}
+.navbar-brand{
+  font-family: "Inter";
+  
+}
 
 body{
-  background-image: url('./pages/images/home-background.jpeg');
+  background-image: url('./pages/images/background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   
@@ -17,6 +31,7 @@ body{
   text-align: center;
   padding-top: 15em;
   color: white;
+  font-style: italic;
   /* background-image: url('./pages/images/home-background.jpeg');
   background-size: cover; */
   
@@ -27,18 +42,21 @@ body{
 .about-header{
   color: white;
   text-align: center;
-  padding-top:0.5em;
+  padding-top:0.1em;
   font-size: 10em;;
 }
 .about-container{
-  max-width: 100%;
+  max-width: 80%;
   color: white;
   padding: 0.7em;
   padding-top:4.5em;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .about-container{
   display: flex;
+  border: 1px solid white;
 
 }
 .about-me{
@@ -46,17 +64,24 @@ body{
   max-width: 50%;
   text-align: justify;
   font-weight: bold;
-  margin-top: 3em;
-  padding-left: 1em;
+  margin-top: 4em;
+  padding-left: 5em;
+  font-family:"Inter";
+  
 }
+
+
 .myimage{
-  margin-left: 12em;
+  margin-left: 17em;
+  
   border: 5px solid #555
 }
+
 
 .card{
   width: 28rem;
 }
+
 
 
 
@@ -68,6 +93,7 @@ body{
 .reveal-1{
   overflow: hidden;
   line-height: 1;
+  font-family:"Inter";
 }
 .reveal-1 span{
   display: block;
@@ -76,6 +102,7 @@ body{
 /* animation2 */
 .reveal-2{
   overflow: hidden;
+  font-family:"Inter";
   line-height: 3;
 }
 .reveal-2 span{
@@ -85,6 +112,7 @@ body{
 
 .reveal-3{
   overflow: hidden;
+  font-family:"Inter";
   line-height: 4;
 }
 .reveal-3 span{

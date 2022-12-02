@@ -35,7 +35,7 @@ function App() {
 
   //about portfolio conatct resume
   return (
-    <main class="images">
+    <main className="images">
     <>
       <Header setCurrentPage={setCurrentPage}
        />

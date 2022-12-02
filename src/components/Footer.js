@@ -1,20 +1,20 @@
 function Footer() {
     return (
-        <footer class="footer">
-            <nav class="navbar fixed-bottom navbar-expand-lg ">
-                <div class="container-fluid">
+        <footer className="footer">
+            <nav className="navbar fixed-bottom navbar-expand-sm">
+                <div className="container d-flex justify-content-center">
                     
                     
-                        <ul class="navbar-nav me-auto mb-3  mb-lg-0 ">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        <ul className="navbar-nav me-auto mb-3 flex-row  mb-lg-0 ">
+                            <li className="nav-item me-2">
+                                <a className="nav-link active" href="#"><i className="fa-brands fa-github fa-xl"></i></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                            <li className="nav-item me-2">
+                                <a className="nav-link active" href="#"><i className="fa-brands fa-linkedin fa-xl"></i></a>
                             </li>
                             
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                            <li className="nav-item me-2">
+                                <a className="nav-link active" href="#"><i className="fa-brands fa-twitter fa-xl"></i></a>
                             </li>
                         </ul>
                        

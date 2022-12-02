@@ -10,7 +10,7 @@ function Project({ data }) {
                     <div className="card-body">
                         <h5 className="card-title">{data.name}</h5>
                         <p className="card-text">{data.description}</p>
-                        <a href={data.deployedLink} className="btn btn-primary">Link</a>
+                        <a href={data.deployedLink} className="btn btn-primary" target="_blank" >Link</a>
                     </div>
                 </div>
             </div>

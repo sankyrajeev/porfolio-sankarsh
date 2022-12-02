@@ -7,14 +7,14 @@ function Footer() {
                     
                         <ul className="navbar-nav me-auto mb-3 flex-row  mb-lg-0 ">
                             <li className="nav-item me-2">
-                                <a className="nav-link active" href="#"><i className="fa-brands fa-github fa-xl"></i></a>
+                                <a className="nav-link active" href="https://github.com/sankyrajeev" target="_blank" ><i className="fa-brands fa-github fa-xl"></i></a>
                             </li>
                             <li className="nav-item me-2">
-                                <a className="nav-link active" href="#"><i className="fa-brands fa-linkedin fa-xl"></i></a>
+                                <a className="nav-link active" href="#" target="_blank" ><i className="fa-brands fa-linkedin fa-xl"></i></a>
                             </li>
                             
                             <li className="nav-item me-2">
-                                <a className="nav-link active" href="#"><i className="fa-brands fa-twitter fa-xl"></i></a>
+                                <a className="nav-link active" href="#" target="_blank" ><i className="fa-brands fa-twitter fa-xl"></i></a>
                             </li>
                         </ul>
                        

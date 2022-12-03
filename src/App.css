@@ -321,6 +321,12 @@ body {
     width:10rem;
    
   }
+  .logo{
+    width:10%;
+  }
+  .navbar-brand{
+    font-size: smaller;
+  }
   .card-body{
     font-size: .5em;
   }
@@ -381,4 +387,20 @@ body {
   .contact{
     font-size: 4em;
   }
+}
+@media only screen and (max-width: 380px) {
+  .home-background h1 h3{
+    font-size: .1em;
+  }
+.reveal-1 {
+  font-size: 1.5em;
+}
+.reveal-2 {
+  font-size: 1.3em;
+}
+.reveal-3{
+  font-size: 1.3em;
+}
+
+
 }

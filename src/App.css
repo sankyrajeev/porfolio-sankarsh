@@ -66,6 +66,7 @@ body {
   background-image: url('./pages/images/background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+ 
 
   height: 100%;
 }
@@ -111,7 +112,7 @@ body {
 
 .about-container {
   display: flex;
-  border: 1px solid white;
+ 
 
 }
 
@@ -215,4 +216,169 @@ body {
 .footer .navbar-nav {
   margin-left: 45%;
 
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-me{
+    font-size: 0.9em;
+    max-width: 70%;
+    padding-left: 2em;
+    padding-left: 2em;
+  }
+
+  .myimage {
+    margin-left: 12em;
+   
+  
+    border: 5px solid #555
+  }
+  .myimage img {
+    width:100px;
+  
+  }
+  .about-container{
+    max-width: 80%;
+    color: white;
+    padding: 0.5em;
+   
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-header  {
+    color: white;
+    text-align: center;
+    padding-top: 0.1em;
+    font-size: 5em;
+    ;
+  }
+  .form{
+    margin-left: 15em;
+    color: white;
+    font-family: "Inter";
+  }
+}
+@media only screen and (max-width: 820px) {
+  .card{
+    width:12rem;
+    margin-right: 1.8em;;
+  }
+  .card-body{
+    font-size: .6em;
+  }
+  .row{
+    padding-left: 11em;;
+  }
+  .portfolio{
+    font-size: 6em;
+  }
+
+  .about-me{
+    font-size: 0.9em;
+    max-width: 70%;
+    padding-left: 2em;
+    padding-left: 2em;
+  }
+
+  .myimage {
+    margin-left: 1em;
+   
+  
+    border: 5px solid #555
+  }
+  
+  .about-container{
+    max-width: 80%;
+    color: white;
+    padding: 0.1em;
+    margin-bottom: 12em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-header  {
+    color: white;
+    text-align: center;
+   
+    font-size: 4em;
+    ;
+  }
+  .form{
+    margin-left: 8em;
+    color: white;
+    font-family: "Inter";
+  }
+  body{
+    
+    width:100%;
+    height: 1800px;
+  }
+  .contact{
+    font-size: 6em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .card{
+    width:10rem;
+   
+  }
+  .card-body{
+    font-size: .5em;
+  }
+  .row{
+    padding-left: 8em;
+  }
+  body{
+    
+    width:100%;
+    height: 2500px;
+  }
+
+
+  .about-me{
+    font-size: 0.6em;
+    max-width: 100%;
+    padding-left: 2em;
+    padding-left: 2em;
+    border: 0cm;
+  }
+
+  .myimage {
+    margin-left: 1em;
+    border: 0cm;
+    margin-top: 1em;
+  
+  }
+  .myimage img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 2em;
+  }
+  
+  .about-container{
+    max-width: 80%;
+    color: white;
+    padding: 0.1em;
+    
+    margin-left: 2em;
+    margin-right: auto;
+    display: inline-block;
+    text-align: center;
+  }
+  .about-header  {
+    color: white;
+    text-align: center;
+   
+    font-size: 4em;
+    ;
+  }
+
+  .form{
+    margin-left: 6em;
+    color: white;
+    font-family: "Inter";
+  }
+
+  .contact{
+    font-size: 4em;
+  }
 }

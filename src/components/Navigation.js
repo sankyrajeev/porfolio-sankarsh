@@ -39,7 +39,7 @@ function Navigation({ setCurrentPage }) {
                                 }}> Contact</a>
                             </li>
                             <li className="nav-item text-white">
-                                <a className="nav-link text-white" href="#"> Resume</a>
+                                <a className="nav-link text-white" href="https://drive.google.com/file/d/1dPzM60YcWiXx--SN_OQv8c18hmq_A6tR/view?usp=sharing"> Resume</a>
                             </li>
 
 

@@ -4,10 +4,17 @@ const dataBaseImage = require(`./images/database.png`);
 const weatherImage = require(`./images/weather.png`);
 const nsitImage = require(`./images/nsit.jpeg`);
 const techbook = require(`./images/techbook.png`)
+const Totoro = require(`./images/e.png`)
 
 function Portfolio() {
 
     const data = [
+        {
+            name: 'Totoro MERN Stack',
+            imgUrl: Totoro,
+            description: 'Our Website features a Totoro Themed Interface where the User has secure login to the main site. In the main page there is a To Do List feature inside a Notes web application. Users can login to their profile and retrieve a To-Do List of their preference in a Note taking format. It can be saved, updated, and deleted within the users profile. A Fullstack Website Application featuring the MERN Stack framework.',
+            deployedLink: 'https://infinite-cliffs-46127.herokuapp.com/',
+        },
         {
             name: 'Note Taker',
             imgUrl: notetakerImage,

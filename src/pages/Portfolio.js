@@ -4,7 +4,7 @@ const dataBaseImage = require(`./images/database.png`);
 const weatherImage = require(`./images/weather.png`);
 const nsitImage = require(`./images/nsit.jpeg`);
 const techbook = require(`./images/techbook.png`)
-const Totoro = require(`./images/e.png`)
+const Totoro = require(`../img/e.png`)
 
 function Portfolio() {
 
